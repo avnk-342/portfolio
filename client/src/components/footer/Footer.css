@@ -1,0 +1,15 @@
+.footer-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.footer-main p{
+    font-size: 18px;
+}
+
+.footer-main hr{
+    width: 100%;
+}

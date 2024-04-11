@@ -1,8 +1,12 @@
 .App {
-  text-align: center;
+  
+  /* text-align: center;
+  background-image: url('/home/vodkov/myFiles/gitRepos/portfolio/client/src/assets/back3.jpg'); */
+  
+  
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +39,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

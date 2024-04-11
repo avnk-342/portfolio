@@ -1,0 +1,66 @@
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    /* background-image: url('/home/vodkov/myFiles/gitRepos/portfolio/client/src/assets/back2.png'); */
+    height: 700px;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* backdrop-filter: blur(3px); */
+    /* filter: blur(2px); */
+    
+}
+
+.intro{
+    display: flex;
+    /* backdrop-filter: blur(3px); */
+    border-radius: 150px;
+    /* border: 30px solid rgb(67, 39, 102); */
+    position: fixed;
+    height: 430px;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+    position: absolute;
+    /* background-color: rgba(256 , 256,256,0.5); */
+    /* background-color: rgba(79, 54, 103,0.6); */
+    font-size: 30px;
+    width: 80%;
+}
+
+/* .image img{
+    height: 450px;
+    width: 400px;
+} */
+
+.para{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.para h4, h3, p{
+    display: flex;
+    align-items: flex-start;
+    margin: 0 0;
+}
+
+.para h3{
+    font-size: 70px;
+}
+
+.para h4{
+    font-size: 20px;
+    backdrop-filter: blur(3px);
+    background-color: black;
+    display: inline;
+    align-items: flex-start;
+}
+
+/* .image{
+    position:fixed;
+    left: 40px;
+} */

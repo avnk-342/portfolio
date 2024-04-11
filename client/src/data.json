@@ -1,0 +1,20 @@
+{
+    "slides": [
+        {
+            "id": 1,
+            "text": "C/C++"
+        },
+        {
+            "id": 2,
+            "text": "Java"
+        },
+        {
+            "id": 1,
+            "text": "Python"
+        },
+        {
+            "id": 1,
+            "text": "HTML"
+        }
+    ]
+}

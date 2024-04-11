@@ -1,0 +1,45 @@
+.project-main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.description h2{
+    font-size: 102px;
+}
+
+.project-list-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 0 60px;
+}
+
+.project-list{
+    display: flex;
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+}
+
+.project-list-item div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 0 20px;
+    height: 30em;
+    width: 20em;
+}
+
+.project-list-item div p{
+    font-size: 20px;
+}

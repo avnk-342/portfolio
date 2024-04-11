@@ -1,0 +1,54 @@
+.maind{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-standing{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.description-standing h2{
+    font-size: 102px;
+    margin: 0;
+}
+
+.description-standing p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.div-list{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.standing-list{
+    display: flex;
+    list-style: none;
+    width: 74%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.standing-list-item div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 25em;
+    width: 25em;    
+}
+
+.standing-list-item p{
+    font-size: 25px;
+}
