@@ -22,3 +22,115 @@
     height: auto;
     list-style: none;
 }
+
+.list-skill{
+    display: flex;
+    list-style: none;
+    overflow: hidden;
+}
+
+.list-item-skill{
+    margin: 0 13px;
+    /* -moz-transform:translateX(100%);
+    -webkit-transform:translateX(100%);	 */
+    
+    /* Apply animation to this element */	
+    /* -moz-animation: list-item-skill 15s linear infinite;
+    -webkit-animation: list-item-skill 15s linear infinite; */
+    
+}
+
+.li1{
+    animation: slideLeft1 15s linear infinite;
+}
+
+.li2{
+    animation: slideLeft2 18s linear infinite;
+}
+
+/* .li3{
+    animation: slideLeft3 15s linear infinite;
+} */
+
+/* .li4{
+    animation: slideLeft4 15s linear infinite;
+} */
+
+/* .li5{
+    animation: slideLeft5 15s linear infinite;
+} */
+
+.list-item-skill div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    /* margin: 0 20px; */
+    height: 10em;
+    width: 10em;
+}
+
+.carousel{
+    border: 1px solid black;
+}
+
+
+/* Move it (define the animation) */
+/* @-moz-keyframes  list-item-skill{
+    0%   { -moz-transform: translateX(100%); }
+    100% { -moz-transform: translateX(-100%); }
+} */
+
+/* @-webkit-keyframes list-item-skill {
+    0%   { -webkit-transform: translateX(100%); }
+    100% { -webkit-transform: translateX(-100%); }
+} */
+
+@keyframes slideLeft1 {
+    from   { 
+    /* -moz-transform: translateX(100%); Firefox bug fix
+    -webkit-transform: translateX(100%); Firefox bug fix */
+    transform: translateX(40em); 		
+    }
+    to { 
+    /* -moz-transform: translateX(-100%); Firefox bug fix */
+    /* -webkit-transform: translateX(-100%); Firefox bug fix */
+    transform: translateX(-14em); 
+    }
+}
+
+@keyframes slideLeft2 {
+    from   { 
+    transform: translateX(40em); 		
+    }
+    to { 
+    transform: translateX(-26em); 
+    }
+}
+
+@keyframes slideLeft3 {
+    from   { 
+    transform: translateX(40em); 		
+    }
+    to { 
+    transform: translateX(-38em); 
+    }
+}
+
+@keyframes slideLeft4 {
+    from   { 
+    transform: translateX(40em); 		
+    }
+    to { 
+    transform: translateX(-50em); 
+    }
+}
+
+@keyframes slideLeft5 {
+    from   { 
+    transform: translateX(40em); 		
+    }
+    to { 
+    transform: translateX(-62em); 
+    }
+}
