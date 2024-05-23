@@ -35,9 +35,13 @@
     display: flex;
     list-style: none;
     width: 74%;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 0;
+}
+
+.standing-list-item{
+    margin: 0px 30px;
 }
 
 .standing-list-item div{

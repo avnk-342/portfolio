@@ -1,6 +1,9 @@
 .project-main{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
     margin-top: 150px;
     margin-bottom: 100px;
 }
@@ -16,30 +19,23 @@
 }
 
 .project-list-div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    padding: 0 60px;
+    display: grid;
+    /* height: 30em; */
+    grid-template-columns: auto auto auto;
+    /* overflow: hidden; */
 }
 
-.project-list{
-    display: flex;
-    list-style: none;
-    overflow: hidden;
-    padding: 0;
-}
 
-.project-list-item div{
+.project-list-div div{
     display: flex;
     align-items: center;
     justify-content: center;
     border: 1px solid black;
-    margin: 0 20px;
+    margin: 20px 50px;
     height: 30em;
     width: 20em;
 }
 
-.project-list-item div p{
+.project-list-div div p{
     font-size: 20px;
 }
