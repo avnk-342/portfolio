@@ -22,13 +22,17 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    border: 1px solid black;
 }
 
 .row-list{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    height: 90%;
-    overflow: hidden;
+    display: flex;
+    height: 100%;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .row-list div{
@@ -39,4 +43,8 @@
     width: 190px;
     justify-content: center;
     align-items: center;
+}
+
+.row-list div p{
+    width:100px;
 }

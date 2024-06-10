@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import profile from '/home/vodkov/myFiles/gitRepos/portfolio/client/src/assets/logo_sample.png'
+// import profile from '/home/vodkov/myFiles/gitRepos/portfolio/client/src/assets/logo_sample.png'
 
 const Hero = () => {
   return (
