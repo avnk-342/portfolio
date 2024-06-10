@@ -28,11 +28,12 @@
 .row-list{
     display: flex;
     height: 100%;
-    width: 70%;
+    width: 670px;
     align-items: center;
     justify-content: center;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    
 }
 
 .row-list div{
@@ -48,3 +49,4 @@
 .row-list div p{
     width:100px;
 }
+

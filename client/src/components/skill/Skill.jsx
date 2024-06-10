@@ -3,17 +3,19 @@ import "./Skill.css"
 
 
 const Skill = () => {
-  let box = document.querySelector(".row-list")
+  
+  
 
   const btnNext = () =>{
-    let width = box.clientWidth;
-    box.scrollLeft = box.scrollLeft + width;
+    let box = document.querySelector(".row-list")
+    box.scrollLeft = box.scrollLeft + 70;
   }
 
   const btnPrev = () =>{
-    let width = box.clientWidth;
-    box.scrollLeft = box.scrollLeft - width;
-    console.log(width)
+    let box = document.querySelector(".row-list")
+    box.scrollLeft = box.scrollLeft - 70;
+  
+    console.log()
   }
  
   
@@ -25,7 +27,7 @@ const Skill = () => {
         <div className="carousel">
           <button className='nextbtn' onClick={btnNext}>Next</button>
           <div className="row-list">
-            <div><p>Java</p></div>
+            <div><p className='testdiv'>Java</p></div>
             <div><p>SQL</p></div>
             <div><p>Python</p></div>
             <div><p>React</p></div>
