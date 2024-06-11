@@ -1,3 +1,7 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
 .main{
     display:flex;
     justify-content: space-between;
@@ -22,17 +26,17 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .row-list{
     display: flex;
     height: 100%;
     width: 670px;
-    align-items: center;
-    justify-content: center;
-    overflow-x: hidden;
+    list-style: none;
+    overflow: hidden;
     scroll-behavior: smooth;
+    align-items: center;
     
 }
 
@@ -50,3 +54,9 @@
     width:100px;
 }
 
+.skill-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
