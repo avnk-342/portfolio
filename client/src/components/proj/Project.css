@@ -3,7 +3,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
     margin-top: 150px;
     margin-bottom: 100px;
 }
@@ -19,14 +18,14 @@
 }
 
 .project-list-div{
-    display: grid;
-    /* height: 30em; */
-    grid-template-columns: auto auto auto;
-    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
-.project-list-div div{
+.project-card{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,6 +35,26 @@
     width: 20em;
 }
 
-.project-list-div div p{
-    font-size: 20px;
+.carousel-list{
+    display: flex;
+    width: 70%;
+    border: 1px solid black;
+}
+
+.project-list{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    list-style: none;
+    padding: 0;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    width:20px;
+    margin-top: 10px;
+    justify-content: space-between;
+    width: 7%;
 }

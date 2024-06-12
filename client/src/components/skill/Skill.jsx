@@ -26,7 +26,7 @@ const Skill = () => {
         </div>
         
         <div className="carousel">
-        <button className='nextbtn' onClick={btnNext}>Next</button>
+          <button className='prevbtn' onClick={btnPrev}>Prev</button>
           <ul className="row-list">
             <li><div className='skill-card'><p className='testdiv'>Java</p></div></li>
             <li><div className='skill-card'><p>SQL</p></div></li>
@@ -41,7 +41,8 @@ const Skill = () => {
             <li><div className='skill-card'><p>Django</p></div></li>
             <li><div className='skill-card'><p>LOLOL</p></div></li>
           </ul>
-          <button className='prevbtn' onClick={btnPrev}>Prev</button>  
+          
+          <button className='nextbtn' onClick={btnNext}>Next</button>
         </div>
        
     </div>
