@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 200px;
 }
 
 .description-standing{
@@ -55,4 +56,10 @@
 
 .standing-list-item p{
     font-size: 25px;
+}
+
+
+
+.div-list li:hover{
+    cursor: pointer;    
 }

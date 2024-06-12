@@ -53,8 +53,21 @@
 .btns{
     display: flex;
     align-items: center;
-    width:20px;
     margin-top: 10px;
     justify-content: space-between;
-    width: 7%;
+    width: 15%;
+}
+
+.btns button{
+    background-color: transparent;
+    border: none;
+}
+
+.btns button:hover{
+    cursor: pointer;
+}
+
+.btns img{
+    height: 40px;
+    width: 40px;
 }

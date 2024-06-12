@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Skill.css"
+import prevImg from "../../assets/arrow-prev.png"
+import nextImg from "../../assets/arrow-next.png"
 
 
 const Skill = () => {
@@ -26,7 +28,7 @@ const Skill = () => {
         </div>
         
         <div className="carousel">
-          <button className='prevbtn' onClick={btnPrev}>Prev</button>
+          
           <ul className="row-list">
             <li><div className='skill-card'><p className='testdiv'>Java</p></div></li>
             <li><div className='skill-card'><p>SQL</p></div></li>
@@ -42,8 +44,17 @@ const Skill = () => {
             <li><div className='skill-card'><p>LOLOL</p></div></li>
           </ul>
           
-          <button className='nextbtn' onClick={btnNext}>Next</button>
+          <div className="btns">
+            <button onClick={btnPrev}>
+              <img src={prevImg} alt="" srcset="" />
+            </button>
+            <button onClick={btnNext}>
+              <img src={nextImg} alt="" />
+            </button>
+          </div>
+          
         </div>
+        
        
     </div>
   )

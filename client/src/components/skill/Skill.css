@@ -22,9 +22,9 @@
     display: flex;
     width:50%;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     height: 100%;
-    /* border: 1px solid black; */
 }
 
 .row-list{
@@ -58,3 +58,4 @@
     justify-content: center;
     
 }
+

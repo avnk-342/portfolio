@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Project.css"
+import prevImg from "../../assets/arrow-prev.png"
+import nextImg from "../../assets/arrow-next.png"
 
 const Project = () => {
   let movement = 500;
@@ -32,10 +34,14 @@ const Project = () => {
           </ul>
         </div>
 
-        <div className='btns'>
-          <button onClick={prev}>Prev</button>
-          <button onClick={next}>Next</button>
-        </div>
+        <div className="btns">
+            <button onClick={prev}>
+              <img src={prevImg} alt="" srcset="" />
+            </button>
+            <button onClick={next}>
+              <img src={nextImg} alt="" />
+            </button>
+          </div>
       </div>
       
     </div>
