@@ -3,19 +3,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 150px;
-    margin-bottom: 100px;
+    background-color: #131313;
+    padding-top: 110px;
 }
 
-.description{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-}
-.description h2{
-    font-size: 102px;
-}
+
 
 .project-list-div{
     display: flex;
@@ -25,20 +17,21 @@
 }
 
 
-.project-card{
-    display: flex;
+.project-card li{
+    display:flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 1px solid white;
     margin: 20px 50px;
-    height: 30em;
-    width: 20em;
+    height: 35em;
+    width: 25em;
+    color: white;
 }
 
 .carousel-list{
     display: flex;
-    width: 70%;
-    border: 1px solid black;
+    width: 60%;
+    justify-content: center;
 }
 
 .project-list{
@@ -70,4 +63,14 @@
 .btns img{
     height: 40px;
     width: 40px;
+}
+
+
+
+.project-card :hover{
+    opacity: 1;
+    background-color: blue;
+    transform: scale(1.1);
+    border: none;
+    transition: all 700ms;
 }

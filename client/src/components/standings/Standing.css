@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 200px;
+    background-color: #6E5774;
 }
 
 .description-standing{
@@ -58,8 +59,15 @@
     font-size: 25px;
 }
 
-
-
-.div-list li:hover{
-    cursor: pointer;    
+.knowBtn:hover{
+    display: none;
 }
+
+.standing-list-item div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+       

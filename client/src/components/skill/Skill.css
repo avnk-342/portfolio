@@ -2,10 +2,12 @@
 
 .main{
     display:flex;
+    /* border-radius: 30px; */
     justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    height: 200px;
-    margin: 80px 0;
+    background-color: #131313;
+    padding: 50px 0;
 }
 
 .heading{
@@ -15,47 +17,51 @@
     width: 50%;
     font-size: 102px;
     height: 100%;
+    color: white;
 }
+.heading h2{
+    margin: 0;
+    background: linear-gradient(to right, #FF206E, #FBFF12);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip:text ;
+}
+
+
 
 
 .carousel{
     display: flex;
-    width:50%;
+    width:80%;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 100%;
+    
 }
 
 .row-list{
     display: flex;
-    height: 100%;
-    width: 670px;
+    width: 90em;
     list-style: none;
     overflow: hidden;
     scroll-behavior: smooth;
     align-items: center;
+    padding: 0;
     
 }
 
 .row-list div{
     display: flex;
-    border: 1px solid black;
+    border: 1px solid rgb(249, 249, 249);
     margin: 3px 10px;
-    height: 70px;
-    width: 190px;
+    height: 230px;
+    width: 230px;
     justify-content: center;
     align-items: center;
 }
 
 .row-list div p{
     width:100px;
-}
-
-.skill-card{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+    color: aliceblue;
 }
 

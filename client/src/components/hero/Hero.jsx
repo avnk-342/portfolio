@@ -1,19 +1,23 @@
 import React from 'react'
 import './Hero.css'
-// import profile from '/home/vodkov/myFiles/gitRepos/portfolio/client/src/assets/logo_sample.png'
+import pfp from "../../assets/developer-8764526_1280.jpg"
 
 const Hero = () => {
   return (
+    
     <div className='container'>
-        <div className="intro">
-          {/* <div className="image">
-            <img src={profile} alt="" />
-          </div> */}
-          <div className="para">
-            <h4>Welcome to my Portfolio</h4>
-            <h3>Hi, i'm Anmol</h3>
-            <p>this is me</p>
-          </div>
+        <div className="intro"></div>
+        <div className="text-div">
+            
+            <div className="self-intro">
+              <p className='greetings'>Hello,</p>
+              <p className='self-name'>i'm Anmol,</p>
+              <p className='self-desigination'>developer || coding enthusiast</p>
+            </div>
+            <div className="imagepfp">
+              <img src={pfp} alt="" />
+            </div>
+            
         </div>
     </div>
   )

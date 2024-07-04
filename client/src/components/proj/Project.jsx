@@ -18,7 +18,7 @@ const Project = () => {
   return (
     <div className='project-main'>
       
-      <div className='description'>
+      <div className='heading project-heading'>
         <h2>Projects</h2>
       </div>
       
@@ -26,11 +26,10 @@ const Project = () => {
         
         <div className="carousel-list">
           <ul className='project-list'>
-            <li><div className='project-card'><p>Alzheimer detection</p></div></li>
-            <li><div className='project-card'><p>Alzheimer detection</p></div></li>
-            <li><div className='project-card'><p>Alzheimer detection</p></div></li>
-            <li><div className='project-card'><p>Alzheimer detection</p></div></li>
-            <li><div className='project-card'><p>Alzheimer detection</p></div></li>
+            <div className='project-card'><li><p>Alzheimer detection</p></li></div>
+            <div className='project-card'><li></li></div>
+            <div className='project-card'><li><p>Calculatir android app</p></li></div>
+            <div className='project-card'><li><p>Calculatir android app</p></li></div>
           </ul>
         </div>
 

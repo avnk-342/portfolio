@@ -16,8 +16,6 @@ const Skill = () => {
   const btnPrev = () =>{
     let box = document.querySelector(".row-list")
     box.scrollLeft = box.scrollLeft - 250;
-  
-    console.log()
   }
  
   
@@ -30,7 +28,7 @@ const Skill = () => {
         <div className="carousel">
           
           <ul className="row-list">
-            <li><div className='skill-card'><p className='testdiv'>Java</p></div></li>
+            <li><div className='skill-card'><p>Java</p></div></li>
             <li><div className='skill-card'><p>SQL</p></div></li>
             <li><div className='skill-card'><p>Python</p></div></li>
             <li><div className='skill-card'><p>React</p></div></li>
