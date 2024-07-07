@@ -32,14 +32,14 @@ const Skill = () => {
             <li><div className='skill-card'><p>SQL</p></div></li>
             <li><div className='skill-card'><p>Python</p></div></li>
             <li><div className='skill-card'><p>React</p></div></li>
+            <li><div className='skill-card'><p>JavaScript</p></div></li>
+            <li><div className='skill-card'><p>TensorFlow</p></div></li>
             <li><div className='skill-card'><p>Django</p></div></li>
-            <li><div className='skill-card'><p>Django</p></div></li>
-            <li><div className='skill-card'><p>Django</p></div></li>
-            <li><div className='skill-card'><p>Django</p></div></li>
-            <li><div className='skill-card'><p>Django</p></div></li>
-            <li><div className='skill-card'><p>Django</p></div></li>
-            <li><div className='skill-card'><p>Django</p></div></li>
-            <li><div className='skill-card'><p>LOLOL</p></div></li>
+            <li><div className='skill-card'><p>Full-stack web-developmet</p></div></li>
+            <li><div className='skill-card'><p>C</p></div></li>
+            <li><div className='skill-card'><p>C++</p></div></li>
+            <li><div className='skill-card'><p>Android Development</p></div></li>
+            <li><div className='skill-card'><p>Kotlin</p></div></li>
           </ul>
           
           <div className="btns">
