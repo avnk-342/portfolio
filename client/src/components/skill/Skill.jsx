@@ -43,12 +43,8 @@ const Skill = () => {
           </ul>
           
           <div className="btns">
-            <button onClick={btnPrev}>
-              <img src={prevImg} alt="" srcset="" />
-            </button>
-            <button onClick={btnNext}>
-              <img src={nextImg} alt="" />
-            </button>
+            <button onClick={btnPrev}>Prev</button>
+            <button onClick={btnNext}>Next</button>
           </div>
           
         </div>

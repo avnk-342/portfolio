@@ -19,21 +19,17 @@
     border: 1px solid white;
 }
 
-.form-div form{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    border-radius: 20px;
-}
+
 
 .form-div{
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 80%;
-    height: 40%;
+    width: 87%;
+    height: 78vh;
+    margin-bottom: 40px;
     border-radius: 20px;
     border: 1px solid wheat;
+    color: aliceblue;
 }
 
 .contact-link-list{
@@ -55,4 +51,64 @@
     width: 1000px;
     height: 105px;
     background-color: rgb(0, 0, 0);
+}
+
+.contact-link-list a{
+    text-decoration: none;
+}
+
+.label-contact{
+    background: linear-gradient(to right, #FF206E, #FBFF12);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip:text ;
+    font-size: 60px;
+    margin: 0;
+}
+
+.label2-contact{
+    background: linear-gradient(to right, #FF206E, #FBFF12);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip:text ;
+    margin: 4px 0;
+    font-size: 40px;
+}
+
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.contact-form label{
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 4px;
+}
+
+.contact-form input ,textarea{
+    height: 40px;
+    font-size: 22px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 3px;
+}
+
+.contact-form textarea{
+    height: 165px;
+}
+
+.contact-form button{
+    margin-top: 30px;
+    height: 47px;
+    font-size: 20px;
+    width: 26%;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(to right, #FF206E, #FBFF12);
+    color: black;
+    font-weight: 900;
+    font-size: 25px;
 }

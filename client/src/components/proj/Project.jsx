@@ -34,12 +34,8 @@ const Project = () => {
         </div>
 
         <div className="btns">
-            <button onClick={prev}>
-              <img src={prevImg} alt="" srcset="" />
-            </button>
-            <button onClick={next}>
-              <img src={nextImg} alt="" />
-            </button>
+            <button onClick={prev}>Prev</button>
+            <button onClick={next}>Next</button>
           </div>
       </div>
       
