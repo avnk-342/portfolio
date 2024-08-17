@@ -1,7 +1,5 @@
 import React from 'react'
 import "./Skill.css"
-import prevImg from "../../assets/arrow-prev.png"
-import nextImg from "../../assets/arrow-next.png"
 
 
 const Skill = () => {

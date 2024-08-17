@@ -18,10 +18,11 @@
 }
 
 
-.project-card li{
+.project-card{
     display:flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    
     border: 1px solid white;
     margin: 20px 50px;
     height: 35em;
@@ -29,10 +30,28 @@
     color: white;
 }
 
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    background-color: #FF206E;
+}
+
+.project-card img {
+    height: 60%;
+    width:100%;
+}
+
 .carousel-list{
     display: flex;
     width: 60%;
     justify-content: center;
+    height: 50%;
 }
 
 .project-list{
@@ -74,10 +93,11 @@
 
 
 
-.project-card :hover{
-    opacity: 1;
-    background-color: blue;
-    transform: scale(1.1);
-    border: none;
-    transition: all 700ms;
+.project-list div:hover{
+    transform: scale(1);
 }
+
+.project-card:hover .overlay{
+    height: 100%;
+}
+

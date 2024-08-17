@@ -4,8 +4,9 @@ const app = express()
 var cors = require('cors')
 const mysql =  require("mysql2")
 var bodyParser = require('body-parser')
+
 app.use(bodyParser.urlencoded({ extended: false }))
-app.use(bodyParser.json())
+app.use(bodyParser.json()) //necessary to get data from req body
 
 // var corsOptions = {
 //     origin: "http://localhost/3000",
