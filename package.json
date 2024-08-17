@@ -1,6 +1,6 @@
 {
   "homepage": "https://avnk-342.github.io/portfolio",
-  "name": "client",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
