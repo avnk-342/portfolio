@@ -1,5 +1,5 @@
 import React from 'react'
-import pdfcom from "../assets/resume-test.pdf"
+import pdfcom from "../assets/conda-4.14.pdf"
 import "./Resume.css"
 
 const Resume = () => {
