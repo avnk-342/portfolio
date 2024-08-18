@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Project.css"
-import prevImg from "../../assets/arrow-prev.png"
-import nextImg from "../../assets/arrow-next.png"
+import takeplace from "../../assets/developer-8764526_1280.jpg"
 
 const Project = () => {
   let movement = 500;
@@ -26,9 +25,19 @@ const Project = () => {
         
         <div className="carousel-list">
           <ul className='project-list'>
-            <div className='project-card'><li><p>Alzheimer detection</p></li></div>
-            <div className='project-card'><li><p>Calculatir android app</p></li></div>
-            <div className='project-card'><li><p>Movie Recommendation System</p></li></div>
+            <li><div className='project-card'>
+              <img src={takeplace} alt="" />
+              <p>Alzheimer detection</p>
+            
+            </div></li>
+            <li><div className='project-card'>
+              <img src={takeplace} alt="" />
+              <p>Calculatir android app</p>
+            </div></li>
+            <li><div className='project-card'>
+              <img src={takeplace} alt="" />
+              <p>Movie Recommendation System</p>
+            </div></li>
           </ul>
         </div>
 
