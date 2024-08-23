@@ -45,9 +45,10 @@
 
 .contact-link-list li{
     margin: 40px 0;
-    color: rgb(150, 8, 232);
+    color: white;
     font-size: 40px;
-    outline: 10px solid rgb(47, 47, 47);
+    /* outline: 10px solid rgb(47, 47, 47); */
+    border: 2px solid wheat;
     border-radius: 10px;
     align-items: center;
     justify-content: center;

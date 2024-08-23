@@ -8,13 +8,14 @@ const Skill = () => {
 
   const btnNext = () =>{
     let box = document.querySelector(".row-list")
-    box.scrollLeft = box.scrollLeft + 250;
+    box.scrollLeft += 250;
   }
 
   const btnPrev = () =>{
     let box = document.querySelector(".row-list")
-    box.scrollLeft = box.scrollLeft - 250;
+    box.scrollLeft -= 250;
   }
+  // setInterval(btnNext,2000)
  
   
   return (
@@ -33,10 +34,10 @@ const Skill = () => {
             <li><div className='skill-card'><p>JavaScript</p></div></li>
             <li><div className='skill-card'><p>TensorFlow</p></div></li>
             <li><div className='skill-card'><p>Django</p></div></li>
-            <li><div className='skill-card'><p>Full-stack web-developmet</p></div></li>
+            <li><div className='skill-card'><p>HTML||CSS||JS</p></div></li>
             <li><div className='skill-card'><p>C</p></div></li>
             <li><div className='skill-card'><p>C++</p></div></li>
-            <li><div className='skill-card'><p>Android Development</p></div></li>
+            {/* <li><div className='skill-card'><p>Android Development</p></div></li> */}
             <li><div className='skill-card'><p>Kotlin</p></div></li>
           </ul>
           

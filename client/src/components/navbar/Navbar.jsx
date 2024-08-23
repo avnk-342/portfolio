@@ -1,5 +1,3 @@
-// import logo from "/home/vodkov/myFiles/gitRepos/portfolio/client/src/assets/logo_sample.png"
-import {Link} from 'react-router-dom'
 import './Navbar.css'
 
 
@@ -11,7 +9,7 @@ const Navbar = () => {
 
         <div className = 'navbar'>
             <div className = "nav-logo">
-                {/* <img src={logo} alt="" /> */}
+              <img src="https://i.ibb.co/1Qy0zMz/logo5-removebg-preview.png" alt="logo5-removebg-preview"/>
             </div>
             <ul className= "nav-menu">
                 <li><a href="/">Home</a></li>
