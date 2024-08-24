@@ -36,7 +36,7 @@ const Contact = () => {
               <a href="https://github.com/avnk-342"><li>Github</li></a>
             </ul>
         </div>
-        <h1 className='label-contact'>OR</h1>
+        {/* <h1 className='label-contact'>OR</h1>
         <p className='label2-contact'>Fill this form</p>
         <div className='form-div'>
           <form onSubmit={handelSubmit} className='contact-form'>
@@ -48,7 +48,7 @@ const Contact = () => {
             <textarea id="userElaborate" placeholder="type here...." name='text' onChange={handelChange} value={FormData.text} ></textarea>
             <button type="submit">Submit</button>
           </form>
-        </div>
+        </div> */}
       </div>
     </div>
   )

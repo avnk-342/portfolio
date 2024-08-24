@@ -15,7 +15,7 @@ const Hero = () => {
               
             </div>
             <div className="imagepfp">
-              <img src="" alt="" />
+              <img src="https://i.ibb.co/0Zh4yLk/developer-image.jpg" alt="developer-image" />
             </div>
             
         </div>
