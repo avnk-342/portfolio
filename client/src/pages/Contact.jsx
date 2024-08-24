@@ -3,26 +3,26 @@ import './Contact.css'
 import axios from "axios"
 
 const Contact = () => {
-  const [FormData, setFormData] = useState({
-    email: "",
-    subject: "",
-    text: "" 
-  })
+  // const [FormData, setFormData] = useState({
+  //   email: "",
+  //   subject: "",
+  //   text: "" 
+  // })
 
-  const handelChange = (e) => {
-    setFormData({...FormData, [e.target.name]: e.target.value})
-  }
+  // const handelChange = (e) => {
+  //   setFormData({...FormData, [e.target.name]: e.target.value})
+  // }
   
-  const handelSubmit = (e) => {
-    e.preventDefault()
-      axios({
-        method: "post",
-        url:'http://localhost:8080/contact',
-        data: {FormData},
-      })
-      .then(res=> console.log("success"))
-      .catch(err=> console.log("sed life"))
-  }
+  // const handelSubmit = (e) => {
+  //   e.preventDefault()
+  //     axios({
+  //       method: "post",
+  //       url:'http://localhost:8080/contact',
+  //       data: {FormData},
+  //     })
+  //     .then(res=> console.log("success"))
+  //     .catch(err=> console.log("sed life"))
+  // }
 
 
   return (
