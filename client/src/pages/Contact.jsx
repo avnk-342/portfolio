@@ -31,7 +31,7 @@ const Contact = () => {
         <h1 className='label-contact'>Contact me via</h1>
         <div className="contact-links">
             <ul className="contact-link-list">
-              <a href="mailto:someone@example.com"><li>Email (avnk.24598@gmail.com)</li></a>
+              <a href="mailto:avnk.24598@gmail.com"><li>Email (avnk.24598@gmail.com)</li></a>
               <a href="https://www.linkedin.com/in/anmol-koundal-19748a241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><li>Linkdin</li></a>
               <a href="https://github.com/avnk-342"><li>Github</li></a>
             </ul>
