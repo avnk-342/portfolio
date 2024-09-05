@@ -37,11 +37,10 @@ const Skill = () => {
             <li><div className='skill-card'><p>HTML||CSS||JS</p></div></li>
             <li><div className='skill-card'><p>C</p></div></li>
             <li><div className='skill-card'><p>C++</p></div></li>
-            {/* <li><div className='skill-card'><p>Android Development</p></div></li> */}
             <li><div className='skill-card'><p>Kotlin</p></div></li>
           </ul>
           
-          <div className="btns">
+          <div className="btns skill-btns">
             <button onClick={btnPrev}>Prev</button>
             <button onClick={btnNext}>Next</button>
           </div>

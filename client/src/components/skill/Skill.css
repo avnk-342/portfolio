@@ -1,8 +1,5 @@
-
-
 .main{
     display:flex;
-    /* border-radius: 30px; */
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
@@ -26,8 +23,6 @@
     -webkit-background-clip: text;
     background-clip:text ;
 }
-
-
 
 
 .carousel{
@@ -54,7 +49,6 @@
     display: flex;
     font-size: 42px;
     font-weight: 600;
-    /* border: 1px solid rgb(249, 249, 249); */
     margin: 3px 10px;
     height: 230px;
     width: 330px;
@@ -65,4 +59,3 @@
 .skill-card p{
     color: aliceblue;
 }
-
