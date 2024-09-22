@@ -8,13 +8,12 @@ const Navbar = () => {
     <div className="nav_container">
 
         <div className = 'navbar'>
-            <div className = "nav-logo">
-              <img src="https://i.ibb.co/1Qy0zMz/logo5-removebg-preview.png" alt="logo5-removebg-preview"/>
-            </div>
+            {/* <div className = "nav-logo">
+              <a href="/"><img src="https://i.ibb.co/1Qy0zMz/logo5-removebg-preview.png" alt="logo5-removebg-preview"/></a>
+            </div> */}
             <ul className= "nav-menu">
                 <li><a href="/">Home</a></li>
                 <li><a href="/resume">Resume</a></li>
-                <li><a href="/contact">Contact</a></li>
             </ul>
 
             
