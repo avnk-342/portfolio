@@ -15,8 +15,8 @@ const Hero = () => {
               <div className='contact-div'>
                 <ul className="contact-list">
                   <li><a href="mailto:avnk.24598@gmail.com">Email</a></li>
-                  <li><a href="https://www.linkedin.com/in/anmol-koundal-19748a241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></li>
-                  <li><a href="https://github.com/avnk-342">GitHub</a></li>
+                  <li><a href="https://www.linkedin.com/in/anmol-koundal-19748a241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank'>LinkedIn</a></li>
+                  <li><a href="https://github.com/avnk-342" target='_blank'>GitHub</a></li>
                   <li><a href="/resume">Resume</a></li>
                 </ul>
 
