@@ -1,0 +1,49 @@
+.main{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: #131313;
+    padding: 50px 0;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    font-size: 102px;
+    height: 100%;
+    color: white;
+}
+.heading h2{
+    margin: 0;
+    background: linear-gradient(to right, #FF206E, #FBFF12);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip:text ;
+}
+
+.row-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+}
+
+.skill-card{
+    display: flex;
+    font-size: 42px;
+    justify-content: center;
+    padding: 3px 20px;
+    background-color: rgb(27, 34, 50);
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+.skill-card p{
+    color: aliceblue;
+    font-weight: 900;
+    margin: 0;
+}
