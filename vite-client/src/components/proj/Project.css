@@ -97,7 +97,7 @@
 }
 
 .project-info a:hover{
-    text-decoration:line-through;
+    text-decoration:underline;
 }
 
 .project-info p{

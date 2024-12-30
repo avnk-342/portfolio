@@ -33,7 +33,7 @@ const Project = () => {
               <div className="project-info">
                 <h4>Alzheimer Detection Website</h4>
                 <p>A website to detect level of dementia from MRI scans. Made by React and uses machine learnin in API to predict level of dementia with ~70% accuracy</p>
-                <a href="https://github.com/avnk-342/alzheimer_detection_ML.git">Know More</a>
+                <a href="https://github.com/avnk-342/alzheimer_detection_ML.git" target='_blank'>Know More</a>
               </div>
             </div></li>
 
@@ -44,7 +44,7 @@ const Project = () => {
               <div className="project-info">
                 <h4>Encrypt-n-Decrypt</h4>
                 <p>It is a simple software helps to encrypt and decrypt text with help of user generated key. Its made with Python and used tkinter to create simple GUI in efficient time</p>  
-                <a href="https://github.com/avnk-342/alzheimer_detection_ML.git">Know More</a>
+                <a href="https://github.com/avnk-342/alzheimer_detection_ML.git" target='_blank'>Know More</a>
               </div>
             </div></li>
 
@@ -55,7 +55,7 @@ const Project = () => {
               <div className="project-info">
                 <h4>Movie Recommendation System</h4>
                 <p>A Recommendation system that list top 5 movies the user may like based on his first selection. Deployed using StreamLit with simple user interface. User NLTK and scikit-learn to create Recommendation system.</p>
-                <a href="">Know More</a>
+                <a href="https://github.com/avnk-342/movie_recommending-_system.git" target='_blank'>Know More</a>
               </div>
             </div></li>
             

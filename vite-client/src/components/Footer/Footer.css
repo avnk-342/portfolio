@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: #131313;
+    /* margin-top: 30px; */
 }
 
 .main-up{
@@ -11,6 +12,7 @@
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    padding-top: 10px;
 }
 
 .footer-list{
@@ -31,9 +33,11 @@
 }
 
 .footer hr{
-    width: 30%;
+    width: 100%;
     border-radius: 30px;
     color: white;
+    margin-top: 30px;
+    padding: 0;
 }
 
 .footer-list p{
@@ -57,3 +61,10 @@
     padding: 0;
 }
 
+.footer-list li a{
+    color: white;
+}
+
+.footer-list li a:hover{
+    text-decoration: underline;
+}
