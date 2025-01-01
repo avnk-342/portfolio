@@ -25,15 +25,7 @@
     text-align: justify;
 }
 
-.imagepfp{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.imagepfp img{
-    height: 400px;
-}
 
 .greetings{
     font-size: 80px;
@@ -52,12 +44,6 @@
     margin: 0;
 }
 
-.self-desigination{
-    color: rgb(142, 12, 248);
-    font-size: 43px;
-    font-weight: 400;
-    margin: 0;
-}
 
 .contact-list{
     display: flex;
@@ -87,4 +73,25 @@
 
 .contact-list :hover{
     text-decoration: underline;
+}
+
+@media screen and (max-width: 975px){
+
+    .greetings{
+        font-size: 65px;
+    }
+
+    .self-name{
+        font-size: 39px;
+    }
+    
+    .self-description{
+        font-size: 16px;
+    }
+
+    .contact-list a{
+        color: wheat;
+        text-decoration: none;
+        font-size: 18px;
+    }
 }

@@ -57,3 +57,12 @@
     padding: 20px;
   
 }
+
+/* 1374 x 915 */
+@media screen and (max-width: 1375px) {
+
+    .project-list-row-2{
+        grid-template-columns: auto;
+    }
+    
+}
