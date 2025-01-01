@@ -3,68 +3,31 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: #131313;
-    /* margin-top: 30px; */
 }
 
 .main-up{
-    padding: 30px 180px;
+    padding: 90px 0px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 100%;
-    padding-top: 10px;
 }
 
-.footer-list{
-    list-style: none;
+.main-up > p{
+    font-size: 30px;
 }
 
-.footer-list li{
-    margin: 20px;
-    display: flex;
-}
-
-.footer-list li span{
-    margin-left: 10px;
-}
-
-.logo h1{
-    font-size: 60px;
-}
-
-.footer hr{
-    width: 100%;
-    border-radius: 30px;
-    color: white;
-    margin-top: 30px;
-    padding: 0;
-}
-
-.footer-list p{
-    font-size: 20px;
-}
-
-.contact-section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .contact-heading{
-    font-size: 32px;
-    margin: 0;
-    padding: 0;
+    color:#888888;    
+    text-shadow: 1px 0 #888888;
+    letter-spacing:1px;
+    font-weight:bold;
 }
 
 .contact-description{
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
+    color: #e4e2e2;
 }
 
-.footer-list li a{
-    color: white;
-}
-
-.footer-list li a:hover{
-    text-decoration: underline;
+.footer > hr{
+    width: 30%;
 }
