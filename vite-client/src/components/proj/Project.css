@@ -28,13 +28,17 @@
 .col:hover{
     transform: scale(1.03);
 }
+
+.col > h4 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .col > h4{
     font-size: 24px;
     margin: 10px 0px;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
 }
 .col > p{
     font-size: 20px;
