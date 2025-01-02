@@ -66,3 +66,28 @@
     }
     
 }
+
+@media screen and (max-width: 412px) {
+    .heading-project{
+        font-size: 45px;
+    }
+
+    .col > h4{
+        font-size: 14px;
+        margin: 10px 0px;
+    }
+    .col > p{
+        font-size: 12px;
+        margin: 0;
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
+    .col > img{
+        width: 330px;
+        height: 230px;
+    }
+
+    .col{
+        overflow: hidden;
+    }
+}

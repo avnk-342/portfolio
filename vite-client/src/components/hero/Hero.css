@@ -95,3 +95,30 @@
         font-size: 18px;
     }
 }
+
+@media screen and (max-width: 412px){
+    .greetings{
+        font-size: 25px;
+    }
+
+    .self-name{
+        font-size: 19px;
+    }
+    
+    .self-description{
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .contact-list a{
+        color: wheat;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .contact-logos{
+        height: 18px;
+        width: 18px;
+    }
+    
+}
