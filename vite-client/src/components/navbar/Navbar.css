@@ -25,6 +25,7 @@
    font-size: 38px;
    color: wheat;
    font-weight: bolder;
+   margin: 0;
 }
 
 .nav-menu{
@@ -68,3 +69,27 @@
     color:bisque;
 }
 
+.nav-links-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links-list-element{
+    display: flex;
+    text-decoration: none;
+    color: wheat;
+    font-size: 19px;   
+}
+
+
+.nav-links-list-element:hover{
+    text-decoration: underline;
+    color: rgb(139, 246, 239);
+}
