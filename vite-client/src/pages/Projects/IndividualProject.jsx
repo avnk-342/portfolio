@@ -1,6 +1,5 @@
 import { Link, useParams } from 'react-router-dom'
 import './IndividualProject.css'
-import pfp from '../../assets/developer-image.jpg'
 import { getDoc, doc } from "firebase/firestore";
 import { React, useState, useEffect } from 'react';
 import { db } from '../../config/firestore'
@@ -35,24 +34,22 @@ const IndividualProject = () => {
         </div>
 
         <div className="project-content">
+            
+            <a href={data.git_links} target='_blank' className="github-links">Github</a>
             <div className="row1">
                 <div className="project-name">
                     <h3>{data.name}</h3>
                 </div>
                 <div className='project-images'>
-                    <img src={pfp} height={100} width={100} alt="" />
+                    <img src= {data.image1}  alt="" />
                 </div>
             </div>
-            
+            <hr />
             <div className="row2">
-                <h4>Project description</h4>
-                <ul>
-                  <li>{data.desc_pt_1}</li>
-                  <li>{data.desc_pt_2}</li>
-                  <li>{data.desc_pt_3}</li>
-                </ul>
+                <h4>Description</h4>
+                <p className='project-description'>{data.desc}</p>
             </div>
-
+            <hr />
             <div className="row3">
               <h4>Technology stack</h4>
               <div className="tech-stack">
