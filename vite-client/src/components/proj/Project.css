@@ -18,7 +18,8 @@
 .col{
     border: 1px solid white;
     margin: 20px;
-    max-width: 640px;
+    width: 640px;
+    height: 540px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,7 +30,6 @@
 .col:hover{
     transform: scale(1.03);
 }
-
 
 .col > h4{
     font-size: 24px;
@@ -53,6 +53,7 @@
 .project_links:hover{
     color: wheat;
 }
+
 .heading-project{
     font-size: 92px;
     background: linear-gradient(to right, #FF206E, #FBFF12);
@@ -60,7 +61,6 @@
     -webkit-background-clip: text;
     background-clip:text ;
     padding: 20px;
-  
 }
 
 /* 1374 x 915 */
@@ -72,7 +72,7 @@
     
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 680px) {
     .heading-project{
         font-size: 45px;
     }
@@ -94,5 +94,7 @@
 
     .col{
         overflow: hidden;
+        width: 330px;
+        height: 300px;
     }
 }

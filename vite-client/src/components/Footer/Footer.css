@@ -32,9 +32,9 @@
     width: 30%;
 }
 
-@media screen and (max-width:412px) {
+@media screen and (max-width:680px) {
     .main-up > p{
-        font-size: 14px;
+        font-size: 20px;
     }
     
 }
