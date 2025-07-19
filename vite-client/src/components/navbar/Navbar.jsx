@@ -13,11 +13,11 @@ const Navbar = () => {
               <p>AK</p>
             </div>
         </div>
-        <div className="nav-links-div">
+        {/* <div className="nav-links-div">
           <ul className='nav-links-list'>
             <li ><Link className='nav-links-list-element' to="about">About</Link></li>
           </ul>
-        </div>
+        </div> */}
     </div>
   )
 }
