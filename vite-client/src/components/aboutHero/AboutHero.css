@@ -1,0 +1,32 @@
+.about-main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.about-landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.dev-image{
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    max-width: 60vh;
+}
+
+.self-description{
+    color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: justify;
+}
