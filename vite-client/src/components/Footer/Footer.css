@@ -14,7 +14,7 @@
 }
 
 .main-up > p{
-    font-size: 30px;
+    font-size: 1.875em;
 }
 
 .contact-heading{
@@ -34,7 +34,7 @@
 
 @media screen and (max-width:680px) {
     .main-up > p{
-        font-size: 20px;
+        font-size: 1.25em;
     }
     
 }

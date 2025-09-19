@@ -55,7 +55,7 @@
 }
 
 .row2 > p{
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 .project-content{
@@ -102,7 +102,7 @@
 }
 
 .row3 > h4{
-    font-size: 32px;
+    font-size: 2em;
     display: flex;
     justify-content: center;
     color: white;
@@ -119,5 +119,5 @@
     background-color: #8d89a7;
     border-radius: 5px;
     padding: 5px 10px;
-    font-size: 25px;
+    font-size: 1.5625em;
 }
