@@ -1,0 +1,21 @@
+.education-main-div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-color: #131313;
+}
+
+.toggle-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dynamic-space{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}

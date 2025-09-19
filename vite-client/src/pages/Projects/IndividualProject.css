@@ -26,38 +26,47 @@
     border: 1px solid blueviolet;
 }
 
+.col1{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 3em;
+}
+
 .row1{
     display: flex;
-    width: 100%;
+    flex-direction: row-reverse;
+    gap: 10%;
+    align-items: center;
+    width: 80%;
 }
 
 .row2{
     display: flex;
-    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
 }
 
 .row2 > h4{
-    display: flex;
-    font-size: 32px;
-    align-items: center;
-    color: white;
+    font-size: 1.5em;
+    width: 100%;
 }
 
-.row2 > ul{
+.row2 > p{
     font-size: 20px;
-    margin-left: 10px;
 }
 
 .project-content{
     display: flex;
+    gap: 30px;
     flex-direction: column;
     align-items: center;
     width: 70%;
-    margin-top: 10%;
-    border: 1px solid wheat;
-    padding: 30px;
-    border-radius: 10px;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    padding: 3%;
+    margin-bottom: 5%;
 }
 
 .project-content > hr{
@@ -69,30 +78,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
-    overflow: hidden;
 }
 
-.project-name{
-    font-size: 32px;
-    margin-left: 40px;
-    width: 50%;
+.project-name > h3{
+    font-size: 2em;
+    width: 100%;
     color: wheat;
+}
+
+.project-name > p{
+    font-size: 1.13em;
+    width: 100%;
 }
 
 .back-button{
     position: fixed;
-    top: 0px;
+    top: 2em;
     left: 0px;
     padding: 20px;
-}
-
-.project-description{
-    font-size: 20px;
-    margin-top: 20px;
-    padding: 0 20px;
-    text-align: justify;
-    text-justify: inter-word;
+    text-decoration: none;
+    font-size: 1.3em;
     color: white;
 }
 
@@ -111,7 +116,7 @@
 }
 
 .tech-tag {
-    background-color: #ff5f94;
+    background-color: #8d89a7;
     border-radius: 5px;
     padding: 5px 10px;
     font-size: 25px;

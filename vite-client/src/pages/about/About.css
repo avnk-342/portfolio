@@ -1,34 +1,5 @@
-.about-section-nav{
-    position: sticky;
-    z-index: 1;
-    top: 0;
-}
-
-.back-button{
-    font-size: 32px;
-    color: rgb(201, 199, 199);
-}
-
-.about-section-main-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-
-.about-section-holder-div{
+.flex-container{
     display: flex;
     flex-direction: column;
-    width: 70%;
-    background-color: aquamarine;
-}
-
-.photo-intro{
-    display: flex;
-}
-
-.photo-intro > img{
-    width: 500px;
-    height: 500px;
+    gap: 20px;
 }
