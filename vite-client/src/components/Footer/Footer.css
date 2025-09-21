@@ -1,20 +1,19 @@
 .footer{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     background-color: #131313;
+    width: 100%;
 }
 
 .main-up{
-    padding: 90px 0px;
+    padding: 5% 0px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
-}
-
-.main-up > p{
-    font-size: 1.875em;
+    width: 100%;
 }
 
 .contact-heading{
@@ -22,14 +21,11 @@
     text-shadow: 1px 0 #888888;
     letter-spacing:1px;
     font-weight:bold;
+    font-size: 1.875em;
 }
 
 .contact-description{
     color: #e4e2e2;
-}
-
-.footer > hr{
-    width: 30%;
 }
 
 @media screen and (max-width:680px) {
