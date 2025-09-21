@@ -10,7 +10,8 @@ const Navbar = () => {
 
         <div className = 'navbar'>
             <div className = "nav-logo">
-              <p>AK</p>
+              {/* <p>AK</p> */}
+              <NavLink className="logo-navlink" to="/" end>AK</NavLink>
             </div>
         </div>
         {/* <div className="nav-links-div">
