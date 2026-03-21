@@ -5,7 +5,8 @@ const Footer = () => {
     
     <div className='footer'>
       <div className="main-up">
-        <p className='contact-heading'>Contact Me at: <span className='contact-description'>avnk.24598@gmail.com</span></p>   
+        <p className='contact-heading'>Contact Me at:</p>
+        <p className='contact-description'>avnk.24598@gmail.com</p>   
       </div>
     </div>
   )

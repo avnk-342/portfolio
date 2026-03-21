@@ -26,11 +26,20 @@
 
 .contact-description{
     color: #e4e2e2;
+    text-shadow: 1px 0 #888888;
+    letter-spacing:1px;
+    font-weight:bold;
+    font-size: 1.875em;
+    padding-left: 10px;
 }
 
 @media screen and (max-width:680px) {
     .main-up > p{
         font-size: 1.25em;
+    }
+
+    .main-up{
+        flex-direction: column;
     }
     
 }
