@@ -1,9 +1,12 @@
-.education-main-div{
+.timeline-main-div{
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
-    background-color: #131313;
+    /* background-color: #131313; */
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 .toggle-bar{

@@ -1,0 +1,28 @@
+.historyProfle{
+    margin-top: 100px;
+}
+
+.tabControls{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.tabControls:hover{
+    cursor: pointer;
+}
+
+.tab-item{
+    background: linear-gradient(to right, #FF206E, #FBFF12);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.timeline-view{
+    display: flex;
+    justify-content: space-evenly;
+}
+

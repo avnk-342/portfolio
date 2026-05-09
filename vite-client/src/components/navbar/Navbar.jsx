@@ -10,16 +10,19 @@ const Navbar = () => {
 
         <div className = 'navbar'>
             <div className = "nav-logo">
-              {/* <p>AK</p> */}
-              <NavLink className="logo-navlink" to="/" end>AK</NavLink>
+              <NavLink className="logo-navlink" to="/" end><h1>&lt;AK<span className='logo-span'>/</span>&gt;</h1></NavLink>
             </div>
         </div>
-        {/* <div className="nav-links-div">
+
+        <div className="nav-links-div">
           <ul className='nav-links-list'>
             <li ><NavLink className='nav-links-list-element' to="/" end>Home</NavLink></li>
-            <li ><NavLink className='nav-links-list-element' to="/about">About</NavLink></li>
+            <li ><NavLink className='nav-links-list-element' to="/" end>About</NavLink></li>
+            <li ><NavLink className='nav-links-list-element' to="/" end>Experties</NavLink></li>
+            <li ><a className='nav-links-list-element' href="#" onClick="scrollToDiv">Projects</a></li>
+            <li ><NavLink className='nav-links-list-element' to="/" end>Contact</NavLink></li>
           </ul>
-        </div> */}
+        </div>
     </div>
   )
 }
