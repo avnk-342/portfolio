@@ -1,13 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fira+Code:wght@400;500;600;700&display=swap');
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  color-scheme: light dark;
-  scroll-behavior: smooth;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  
   --bg-dark: #0a0f18;
   --bg-surface: #111827;
   --primary: #10b981; /* Tech Green */
@@ -15,13 +8,8 @@
   --text-bright: #f3f4f6;
   --text-dim: #9ca3af;
   --border-color: rgba(255, 255, 255, 0.08);
-    
   --font-main: 'Inter', sans-serif;
   --font-mono: 'Fira Code', monospace;
-}
-
-a {
-  text-decoration: inherit;
 }
 
 .container{
@@ -39,22 +27,30 @@ a {
 }
 
 body {
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
-  line-height: 1.5;
-  letter-spacing: 0.01em;
+  background-color: var(--bg-dark);
+  color: var(--text-dim);
+  font-family: var(--font-main);
+  line-height: 1.7;
   overflow-x: hidden;
 }
+
+/* Typography & Utilities */
+h1, h2, h3 { color: var(--text-bright); }
+.mono-accent { color: var(--primary); font-family: var(--font-mono); font-size: 0.9rem; }
 
 
 /* Background Grid Pattern */
 .bg-grid {
-    position: fixed;
-    top: 0; left: 0; width: 100vw; height: 100vh;
-    background-size: 40px 40px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
-                      linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
-    z-index: -1;
-    pointer-events: none;
+  position: fixed;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  background-size: 40px 40px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  z-index: -1;
+  pointer-events: none;
+}
+
+.main{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 100px 1rem;
 }

@@ -1,49 +1,19 @@
-.main{
-    display:flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    background-color: #131313;
-    padding: 50px 0;
+.expertise-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
+.glass-card {
+    background: rgba(17, 24, 39, 0.6);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--border-color);
+    border-radius: 8px; padding: 2.5rem 2rem;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
+.glass-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px -15px var(--primary-glow);
+    border-color: rgba(16, 185, 129, 0.3);
+}
+.card-icon { font-size: 2.5rem; color: var(--primary); margin-bottom: 1.5rem; }
+.glass-card h3 { margin-bottom: 1rem; font-size: 1.3rem; }
+.glass-card p { margin-bottom: 1.5rem; font-size: 0.95rem; }
 
-.heading{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    font-size: 102px;
-    height: 100%;
-    color: white;
-}
-.heading h2{
-    margin: 0;
-    background: linear-gradient(to right, #FF206E, #FBFF12);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip:text ;
-}
-
-.row-list{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    list-style: none;
-    align-items: center;
-    gap: 20px;
-}
-
-.skill-card{
-    display: flex;
-    font-size: 42px;
-    justify-content: center;
-    padding: 3px 20px;
-    background-color: rgb(27, 34, 50);
-    border-radius: 8px;
-    border: 1px solid white;
-}
-
-.skill-card p{
-    color: aliceblue;
-    font-weight: 900;
-    margin: 0;
-}
+.tech-stack { display: flex; gap: 0.8rem; flex-wrap: wrap; }
+.tech-stack span { font-family: var(--font-mono); font-size: 0.8rem; color: var(--primary); }

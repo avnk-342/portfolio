@@ -1,19 +1,31 @@
 import React from 'react'
 import "./AboutHero.css"
-// import pfp from "../../assets/developer-image.jpg"
 
 const AboutHero = () => {
   return (
-    <div >
-      <div className='about-main-div'>
-        <div className='about-landing'>
-            {/* <img src={pfp} alt="Image" className='dev-image'/> */}
+    <div id="about" class="about main">
+        <h2 class="section-title fade-in"><span class="mono-accent">02.</span> About My Journey</h2>
+        <div class="about-grid fade-in">
+            <div class="about-text">
+                <p>My engineering journey began in Quality Engineering and Assurance, where I developed a rigorous, detail-oriented approach to code. Now, my primary focus is strictly on backend development, where logic, efficient data handling, and robust architecture are paramount.</p>
+                <p>I am deeply invested in mastering core principles, currently working through advanced Data Structures and Algorithms to optimize performance at scale. Beyond the codebase, I'm maintaining a strict discipline—whether that's hitting a push/pull/legs split at the gym, prepping for my IELTS and future Master's studies, or tinkering with home server configurations.</p>
+            </div>
+            
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <div class="terminal-body">
+                    <p><span class="prompt">guest@portfolio:~$</span> cat current_focus.txt</p>
+                    <p class="output"> Mastering Java & Spring Boot ecosystems</p>
+                    <p class="output"> Implementing custom FIFO logic for financial ETLs</p>
+                    <p class="output"> Deep-diving into 'Introduction to Algorithms'</p>
+                    <p><span class="prompt">guest@portfolio:~$</span> <span class="typing-cursor">_</span></p>
+                </div>
+            </div>
         </div>
-        <div className='intro-text'>
-            <h1>I'm Anmol Koundal</h1>
-            <p className='self-description'>Computer Science student with strong foundation in algorithms and data structure. Proficient in various programming languages such as Python, C++, Kotlin, with hands-on experience in full-stack development. Demonstrated problem-solving skills through academic projects and competitive coding. Eager to contribute to innovative solutions to excel in dynamic, fast-paced environments</p>
-        </div>
-      </div>
     </div>
   )
 }

@@ -8,7 +8,7 @@ const App = () => {
   return (
     <Router>
         <Navbar/>
-        <main>
+        <main className='container'>
             <Routes>
                 <Route path='/' element={<Home/>} />
                 <Route path='/project/:id' element={<IndividualProject/>} />

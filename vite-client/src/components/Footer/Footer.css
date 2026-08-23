@@ -33,6 +33,17 @@
     padding-left: 10px;
 }
 
+
+.contact { text-align: center; max-width: 600px; margin: 0 auto; padding: 150px 2rem; }
+.contact .section-title { justify-content: center; }
+.contact .section-title::after { display: none; }
+.contact-text { margin-bottom: 3rem; font-size: 1.1rem; }
+
+.footer { margin-top: 100px; text-align: center; }
+.footer .social-links { display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 1rem; }
+.footer .social-links a { color: var(--text-dim); transition: color 0.2s; }
+.footer .social-links a:hover { color: var(--primary); }
+
 @media screen and (max-width:680px) {
     .main-up > p{
         font-size: 1.25em;

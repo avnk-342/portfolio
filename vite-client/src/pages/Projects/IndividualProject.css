@@ -58,7 +58,7 @@
     font-size: 1.25em;
 }
 
-.project-content{
+.individual-project-content{
     display: flex;
     gap: 30px;
     flex-direction: column;
