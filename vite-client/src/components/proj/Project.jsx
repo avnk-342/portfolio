@@ -25,7 +25,7 @@ const Project = () => {
   return (
     <div id="projects" className="projects main">
       <h2 className="section-title fade-in">
-        <span className="mono-accent">04.</span> Engineering Projects
+        Engineering Projects
       </h2>
 
       <div className="project-list">

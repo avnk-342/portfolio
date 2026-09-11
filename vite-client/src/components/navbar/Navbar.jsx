@@ -3,11 +3,11 @@ import { NavLink } from 'react-router-dom'
 import './Navbar.css'
 
 const navItems = [
-  { label: '01. Home', to: '/', exact: true },
-  { label: '02. About', to: '/about' },
-  { label: '03. Expertise', to: '/expertise' },
-  { label: '04. Projects', href: '#projects' },
-  { label: 'Contact', to: '/contact', button: true },
+  { label: 'Home', href: '#hero', exact: true },
+  { label: 'About', href: '#about' },
+  { label: 'Expertise', href: '#expertise' },
+  { label: 'Projects', href: '#projects' },
+  { label: 'Contact', href: '#contact', button: true },
 ]
 
 const Navbar = () => {

@@ -22,7 +22,7 @@ const Skill = () => {
   
   return (
     <div id="expertise" class="expertise">
-        <h2 class="section-title fade-in"><span class="mono-accent">03.</span> Technical Arsenal</h2>
+        <h2 class="section-title fade-in">Technical Arsenal</h2>
         <div class="expertise-container fade-in">
             <div class="glass-card">
                 <FontAwesomeIcon icon={faServer} className='card-icon' />

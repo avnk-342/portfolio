@@ -4,7 +4,7 @@ import "./AboutHero.css"
 const AboutHero = () => {
   return (
     <div id="about" class="about main">
-        <h2 class="section-title fade-in"><span class="mono-accent">02.</span> About My Journey</h2>
+        <h2 class="section-title fade-in">About My Journey</h2>
         <div class="about-grid fade-in">
             <div class="about-text">
                 <p>My engineering journey began in Quality Engineering and Assurance, where I developed a rigorous, detail-oriented approach to code. Now, my primary focus is strictly on backend development, where logic, efficient data handling, and robust architecture are paramount.</p>

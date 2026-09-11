@@ -4,9 +4,8 @@ import './Hero.css'
 const Hero = () => {
   return (
     
-    <div className='hero_container main'> 
+    <div className='hero_container main' id="hero"> 
       <div className="self-intro">
-        <p className='greetings'>System.out.println("Hello, World!");</p>
         <h2 className='catch-line glitch'>Architecting Logic.</h2>
         <h2>Building Robust Systems.</h2>
         <p className='hero-intro'>Specializing in high-performance backends, seamless ETL pipelines, and scalable architecture. Translating complex data structures into elegant solutions.</p>
@@ -14,7 +13,7 @@ const Hero = () => {
         <div className='contact-div'>
           <ul className="contact-list">
             <li>
-              <a className='btn' href="/">Explore Projects</a>
+              <a className='btn' href="#projects">Explore Projects</a>
             </li>
                 
             <li>

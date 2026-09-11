@@ -1,40 +1,4 @@
-.footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* background-color: #131313; */
-    width: 100%;
-}
-
-.main-up{
-    padding: 5% 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-}
-
-.contact-heading{
-    color:#888888;    
-    text-shadow: 1px 0 #888888;
-    letter-spacing:1px;
-    font-weight:bold;
-    font-size: 1.875em;
-}
-
-.contact-description{
-    color: #e4e2e2;
-    text-shadow: 1px 0 #888888;
-    letter-spacing:1px;
-    font-weight:bold;
-    font-size: 1.875em;
-    padding-left: 10px;
-}
-
-
-.contact { text-align: center; max-width: 600px; margin: 0 auto; padding: 150px 2rem; }
+.contact { text-align: center; max-width: 600px; margin: 0 auto; padding: 0.8rem 2rem; }
 .contact .section-title { justify-content: center; }
 .contact .section-title::after { display: none; }
 .contact-text { margin-bottom: 3rem; font-size: 1.1rem; }
