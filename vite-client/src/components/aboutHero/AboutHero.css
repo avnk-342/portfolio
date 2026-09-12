@@ -1,32 +1,36 @@
-.about-main-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 200px;
-}
+/* About & Terminal */
+.about-grid { display: grid; grid-template-columns: 3fr 2fr; gap: 3rem; align-items: center; }
+.about-text p { margin-bottom: 1.5rem; font-size: 1.05rem; }
 
-.about-landing{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
+.terminal-window {
+    background-color: #050505;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 10px 30px -15px rgba(0,0,0,0.7);
+    overflow: hidden;
 }
-
-.dev-image{
-    max-width: 500px;
-    max-height: 500px;
+.terminal-header {
+    background-color: #1a1a1a; padding: 0.7rem 1rem;
+    display: flex; gap: 0.5rem; border-bottom: 1px solid #333;
 }
+.dot { width: 12px; height: 12px; border-radius: 50%; }
+.dot.red { background-color: #ff5f56; }
+.dot.yellow { background-color: #ffbd2e; }
+.dot.green { background-color: #27c93f; }
 
-.intro-text{
-    display: flex;
-    flex-direction: column;
-    max-width: 60vh;
+.terminal-body { padding: 1.5rem; font-family: var(--font-mono); font-size: 0.85rem; color: #a9b7c6; }
+.terminal-body .prompt { color: var(--primary); }
+.terminal-body .output { color: #ce9178; margin-left: 1rem; margin-top: 0.5rem; }
+.typing-cursor { animation: blink 1s step-end infinite; background-color: var(--text-bright); color: transparent; }
+
+@keyframes blink { 50% { opacity: 0; } }
+
+
+.section-title {
+    display: flex; align-items: center; gap: 1rem;
+    font-size: 2rem; margin-bottom: 3rem; white-space: nowrap;
 }
-
-.self-description{
-    color: antiquewhite;
-    margin: 0;
-    padding: 0;
-    font-size: 20px;
-    text-align: justify;
+.section-title::after {
+    content: ""; display: block; height: 1px;
+    width: 300px; background-color: var(--border-color);
 }

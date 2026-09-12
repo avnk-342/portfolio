@@ -6,6 +6,8 @@ import App from './App'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <div className='bg-grid'></div>
     <App/>
+    
   </StrictMode>,
 );

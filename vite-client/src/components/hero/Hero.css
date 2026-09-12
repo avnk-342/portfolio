@@ -1,32 +1,27 @@
-.container{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    height: 700px;
+.hero_container{
+    min-height: 100vh; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: 
+    flex-start; 
 }
 
 .text-div{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 64%;
+}
+
+.self-intro h2{
+    font-size: clamp(40px, 8vw, 70px); line-height: 1.1; margin-bottom: 1rem;
 }
 
 .name{
     font-style: italic;
 }
 
-.greetings{
-    font-size: 5em;
-    font-weight: 900;
-    margin: 0;
-    background: linear-gradient(to right, #FF206E, #FBFF12);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip:text ;
-}
+.greetings{ color: var(--primary); font-family: var(--font-mono); font-size: 0.9rem; }
 
 .self-name {
     color: rgb(248, 87, 29);
@@ -43,6 +38,12 @@
     padding: 0;
 }
 
+.catch-line{
+    font-size: clamp(40px, 8vw, 70px);
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
 .contact-list li{
     margin: 10px 40px 0 0;
     display: flex;
@@ -51,9 +52,7 @@
 }
 
 .contact-list a{
-    color: wheat;
     text-decoration: none;
-    font-size: 1.375em;
 }
 
 .contact-div{
@@ -63,8 +62,49 @@
 }
 
 .contact-list :hover{
-    text-decoration: underline;
+    color: var(--primary);
+    text-decoration: none;
+    transition: all 0.3s ease;
 }
+
+.hero-intro{
+    max-width: 600px; 
+    font-size: 1.2rem; 
+    margin: 1.5rem 0 2.5rem 0;
+}
+
+.catch-phrase > p{
+    font-size: 1.3em;
+    color: wheat;
+}
+
+
+.btn{
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: transparent;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    border-radius: 4px;
+    font-family: var(--font-mono);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: var(--primary-glow);
+    box-shadow: 0 0 15px var(--primary-glow);
+}
+
+.contact-logos{
+    color: var(--text-bright); 
+    font-size: 1.5rem; 
+    transition: color 0.3s;
+}
+
+
+
+
 
 @media screen and (max-width: 975px){
 
@@ -80,11 +120,6 @@
         font-size: 1em;
     }
 
-    .contact-list a{
-        color: wheat;
-        text-decoration: none;
-        font-size: 1.125em;
-    }
 }
 
 @media screen and (max-width: 412px){
