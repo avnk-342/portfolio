@@ -3,8 +3,8 @@
 :root {
   --bg-dark: #0a0f18;
   --bg-surface: #111827;
-  --primary: #10b981; /* Tech Green */
-  --primary-glow: rgba(16, 185, 129, 0.2);
+  --primary: #b93d10; /* Tech Green */
+  --primary-glow: rgba(185, 72, 16, 0.2);
   --text-bright: #f3f4f6;
   --text-dim: #9ca3af;
   --border-color: rgba(255, 255, 255, 0.08);
