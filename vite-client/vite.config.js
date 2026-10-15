@@ -14,7 +14,7 @@ export default defineConfig({
   //     }
   //   }
   // }
-  base:'portfolio',
+  base:'/portfolio/', 
   server: {
     port: 3000
   }

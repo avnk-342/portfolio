@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import './Hero.css'
 
 const Hero = () => {
   const [scrollY, setScrollY] = useState(0)
