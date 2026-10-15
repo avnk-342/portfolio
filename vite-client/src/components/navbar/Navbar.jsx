@@ -1,11 +1,10 @@
 import { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
-import './Navbar.css'
 
 const navItems = [
   { label: 'Home', href: '#hero', exact: true },
-  { label: 'About', href: '#about' },
-  { label: 'Expertise', href: '#expertise' },
+  // { label: 'About', href: '#about' },
+  // { label: 'Expertise', href: '#expertise' },
   { label: 'Projects', href: '#projects' },
   { label: 'Contact', href: '#contact', button: true },
 ]
@@ -34,16 +33,14 @@ const Navbar = () => {
   }
 
   return (
-    <header className={scrolled ? 'scrolled' : ''}>
-      <div className="nav_content">
-        <div className="navbar">
-            <h1 className="nav_logo">
-              &lt;AK<span className="logo-span">/</span>&gt;
-            </h1>
+    <header className={`fixed left-0 top-0 z-50 w-full border-b px-8 backdrop-blur-xl transition-all duration-300 ${scrolled ? 'border-white/10 bg-secondary-light-bg py-4 shadow-lg' : 'border-transparent bg-secondary-light-bg py-6'}`}>
+      <div className="mx-auto flex max-w-300 items-center justify-between">
+        <div className="text-2xl font-bold text-text-dark">
+          &lt;AK<span className="text-green-600">/</span>&gt;
         </div>
 
-        <nav className="nav-links-div" aria-label="Main navigation">
-          <ul className="nav-links-list">
+        <nav aria-label="Main navigation">
+          <ul className="flex list-none items-center gap-8">
             {navItems.map((item) => (
               <li key={item.label}>
                 {item.to ? (
@@ -51,9 +48,7 @@ const Navbar = () => {
                     to={item.to}
                     end={item.exact}
                     className={({ isActive }) =>
-                      isActive
-                        ? `nav-links-list-element ${item.button ? 'btn-outline ' : 'active'}`
-                        : `nav-links-list-element ${item.button ? 'btn-outline ' : ''}`
+                      `font-mono text-sm transition-colors hover:text-text-dark ${item.button ? 'rounded border border-black px-4 py-2 text-text-dark' : 'text-text-dark'} ${isActive ? 'text-text-dark' : ''}`
                     }
                   >
                     {item.label}
@@ -61,7 +56,7 @@ const Navbar = () => {
                 ) : (
                   <a
                     href={item.href}
-                    className="nav-links-list-element"
+                    className={`font-mono text-sm transition-colors hover:text-text-dark ${item.button ? 'rounded border border-black px-4 py-2 text-text-dark' : 'text-text-dark'}`}
                     onClick={(e) => {
                       e.preventDefault()
                       handleScrollToSection(item.href)

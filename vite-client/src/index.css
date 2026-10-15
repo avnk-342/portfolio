@@ -1,56 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fira+Code:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sekuya&display=swap');
 
-:root {
-  --bg-dark: #0a0f18;
-  --bg-surface: #111827;
-  --primary: #b93d10; /* Tech Green */
-  --primary-glow: rgba(185, 72, 16, 0.2);
-  --text-bright: #f3f4f6;
-  --text-dim: #9ca3af;
-  --border-color: rgba(255, 255, 255, 0.08);
+@import "tailwindcss";
+
+@theme {
+  --color-bg-dark: #0a0f18;
+  --color-bg-surface: #111827;
+  --color-primary: #b93d10;
+  --color-text-bright: #f3f4f6;
+  --color-text-dim: #9ca3af;
+  --color-border-color: rgba(255, 255, 255, 0.08);
+  
+  --color-bg-light: #fff0d6;
+  --color-text-dark: #211d19;
+  --color-secondary-light-bg: #d8d1c7;
+  --color-light-cards: #fff9ef;
+  --color-burnt-orange: #f27a1a;
+  --color-light-shadow: #6b241c;
+  --color-optional-olive: #7b8062;
+
   --font-main: 'Inter', sans-serif;
   --font-mono: 'Fira Code', monospace;
-}
-
-.container{
-  display: flex;
-  flex-direction: column;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 2rem;
-}
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  --font-sekuya: "Sekuya", serif;
 }
 
 body {
-  background-color: var(--bg-dark);
-  color: var(--text-dim);
+  background-color: var(--color-bg-light);
+  color: var(--color-text-dim);
   font-family: var(--font-main);
   line-height: 1.7;
   overflow-x: hidden;
 }
 
-/* Typography & Utilities */
-h1, h2, h3 { color: var(--text-bright); }
+/* Typography */
+h1, h2, h3 { color: var(--text-dark); }
 .mono-accent { color: var(--primary); font-family: var(--font-mono); font-size: 0.9rem; }
-
-
-/* Background Grid Pattern */
-.bg-grid {
-  position: fixed;
-  top: 0; left: 0; width: 100vw; height: 100vh;
-  background-size: 40px 40px;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
-  z-index: -1;
-  pointer-events: none;
-}
-
-.main{
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 100px 1rem;
-}
