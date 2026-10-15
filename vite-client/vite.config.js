@@ -7,7 +7,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig(({ command }) => {
   return {
     plugins: [react(), tailwindcss()],
-    base: command === 'serve' ? '/' : '/portfolio/',
+    base: command === 'serve' ? '/' : '/vite-client/',
     server: {
       port: 3000
     }
