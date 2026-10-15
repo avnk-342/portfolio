@@ -1,21 +1,15 @@
-import { defineConfig, resolveConfig } from 'vite'
+import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import {resolve} from "path"
+import { resolve } from "path"
 import tailwindcss from '@tailwindcss/vite'
 
 // https://vitejs.dev/config/
-export default defineConfig({
-  plugins: [react(), tailwindcss()],
-  // build:{
-  //   rollupOptions:{
-  //     input:{
-  //       main: resolve(__dirname, "index.html"),
-  //       about: resolve(__dirname, "/src/pages/About.jsx")
-  //     }
-  //   }
-  // }
-  base: command === 'serve' ? '/' : '/portfolio/',
-  server: {
-    port: 3000
+export default defineConfig(({ command }) => {
+  return {
+    plugins: [react(), tailwindcss()],
+    base: command === 'serve' ? '/' : '/portfolio/',
+    server: {
+      port: 3000
+    }
   }
 })
