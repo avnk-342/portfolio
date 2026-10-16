@@ -1,12 +1,12 @@
 import React from 'react'
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
+import { Route, BrowserRouter, Routes } from 'react-router-dom'
 import Navbar from './components/navbar/Navbar'
 import Home from './pages/Home/Home'
 import IndividualProject from './pages/Projects/IndividualProject'
 
 const App = () => {
   return (
-    <Router>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Navbar/>
         <main>
             <Routes>
@@ -15,7 +15,7 @@ const App = () => {
                 {/* <Route path='*' element={<page404/>} /> for handling 404 page */}
             </Routes>
         </main>
-    </Router>
+    </BrowserRouter>
   )
 }
 

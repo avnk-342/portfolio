@@ -4,10 +4,10 @@ import { resolve } from "path"
 import tailwindcss from '@tailwindcss/vite'
 
 // https://vitejs.dev/config/
-export default defineConfig(({ command }) => {
+export default defineConfig(() => {
   return {
     plugins: [react(), tailwindcss()],
-    base: command === 'serve' ? '/' : '/vite-client/',
+    base: '/portfolio/',
     server: {
       port: 3000
     }
