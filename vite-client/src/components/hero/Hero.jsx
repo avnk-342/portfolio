@@ -12,7 +12,7 @@ const Hero = () => {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  // Calculate scroll progress from 0 to 1 based on viewport height
+  //scroll progress from 0 to 1 based on viewport height
   const progress = Math.min(scrollY / window.innerHeight, 0.5)
 
   return (
@@ -20,15 +20,13 @@ const Hero = () => {
       
       {/* 1. Background moves down slower (Parallax effect) */}
       <div 
-        className="absolute inset-0 bg-[url('assets/synthwave.png')] bg-position-[0%_40%] opacity-50 will-change-transform"
-        style={{ transform: `translateY(${scrollY * 0.08}px)` }}
-      ></div>
+        className="absolute inset-0 bg-[url('assets/synthwave.png')] bg-cover bg-no-repeat bg-position-[0%_40%] opacity-50 will-change-transform" style={{ transform: `translateY(${scrollY * 0.08}px)` }}></div>
 
-      <div className="absolute text-text-dark inset-0 flex perspective-normal items-center justify-center">
+      <div data-reveal className="absolute text-text-dark inset-0 flex perspective-normal items-center justify-center">
         
         {/* 2. Glowing circle shrinks and fades out slightly */}
         <div 
-          className="absolute p-25! bg-white rounded-full blur-xl w-[60%] will-change-transform"
+          className="absolute p-25 bg-white rounded-full blur-xl w-[60%] will-change-transform"
           style={{ 
             transform: `translateY(${scrollY * 0.15}px) scale(${1 - progress * 0.2})`,
             opacity: 1 - progress * 0.8 

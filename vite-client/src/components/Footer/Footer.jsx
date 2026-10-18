@@ -1,4 +1,3 @@
-import React from 'react'
 
 const Footer = () => {
   return (
@@ -6,7 +5,7 @@ const Footer = () => {
     <div id="contact" className="mt-15 mx-auto max-w-150 px-8 py-[0.8rem] text-center text-text-dark">
         <h2 className="justify-center font-mono mb-12 text-xl underline">Initiate Connection</h2>
         <p className="mb-12 text-[1.1rem]">Currently focusing my efforts on deep-dive backend roles within the Java and Spring Boot ecosystems. My inbox is always open for technical discussions, architectural debates, or career opportunities.</p>
-        <a href="mailto:avnk.24598@gmail.com" className="border border-burnt-orange text-burnt-orange p-3 rounded-md hover:bg-burnt-orange/30 transition-colors duration-200">Say Hello!</a>
+        <a href="mailto:avnk.24598@gmail.com" className="mt-8 rounded border border-primary px-4 py-2 font-mono text-primary transition-colors hover:bg-primary hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary">Send a mail!</a>
         
         <div className="mt-15 text-center">
             <div className="mb-4 flex justify-center gap-6">
